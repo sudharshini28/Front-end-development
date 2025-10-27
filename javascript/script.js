@@ -94,3 +94,14 @@ console.log(vechicle);
 console.log(vechicle.brand);
 console.log(vechicle.vehicleType);
 console.log(vechicle.price);
+
+let departmemts = {
+    course: "BCA",
+    class:"A",
+    fees:30000
+}
+console.log(departmemts);
+console.log(departmemts.course);
+console.log(departmemts.class);
+console.log(departmemts.fees);
+
