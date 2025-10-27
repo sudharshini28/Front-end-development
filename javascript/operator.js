@@ -27,3 +27,9 @@ let num3 = 40;
 num--;//PostDecrement
 --num;//PreDecrement
 console.log(num3);
+
+//Post Increment and Pre Increment
+
+let newnum = 10;
+num = newnum++ + ++newnum; // 10 + 12 = 22
+console.log(newnum);
