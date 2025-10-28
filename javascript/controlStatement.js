@@ -1,49 +1,69 @@
-// if statement and else statement
+// // if statement and else statement
 
-let UserAge = 50;
-if(UserAge>10){
-    console.log("The user is eligible to vote!");
-}else{
-    console.log("The User is not eligible to vote!-");
-}
-// if statement and else if statement 
+// let UserAge = 50;
+// if(UserAge>10){
+//     console.log("The user is eligible to vote!");
+// }else{
+//     console.log("The User is not eligible to vote!-");
+// }
+// // if statement and else if statement 
 
-let hour1 = 12;
+// let hour1 = 12;
 
-if(hour1>1 && hour1<6){
-    console.log("Early Morning");
-}
-else if(hour1>6 && hour1<12){
-    console.log("Afternoon");
-}
-else{
-    console.log("It is not an valid hour");
-}
+// if(hour1>1 && hour1<6){
+//     console.log("Early Morning");
+// }
+// else if(hour1>6 && hour1<12){
+//     console.log("Afternoon");
+// }
+// else{
+//     console.log("It is not an valid hour");
+// }
 
-//else if ladder
+// //else if ladder
 
-let hour = 12;
+// let hour = 12;
 
-if(hour>1 && hour<6){
-    console.log("Early Morning");
-}
-else if(hour>6 && hour<12){
-    console.log("Afternoon");
-}
-else if(hour >12 && hour <3){
-    console.log("Mid Afternoon");
-}
-else{
-    console.log("It is not a valid hour");
-}
-//switch cases
-let traffic = "red";
-switch(traffic){
-case "red":  console.log("Stop");
-break;
-case "yellow":  console.log("Get ready");
-break;
-case "Green":  console.log("Go");
-break;
-default : console.log("Pay fine");
+// if(hour>1 && hour<6){
+//     console.log("Early Morning");
+// }
+// else if(hour>6 && hour<12){
+//     console.log("Afternoon");
+// }
+// else if(hour >12 && hour <3){
+//     console.log("Mid Afternoon");
+// }
+// else{
+//     console.log("It is not a valid hour");
+// }
+// //switch cases
+// let traffic = "red";
+// switch(traffic){
+// case "red":  console.log("Stop");
+// break;
+// case "yellow":  console.log("Get ready");
+// break;
+// case "Green":  console.log("Go");
+// break;
+// default : console.log("Pay fine");
+// }
+
+// Nested IF statement
+
+let age = 18;
+let height = 150;
+let weight = 60;
+
+if(age >=18){
+    if(height>=150){
+        if(weight>=45){
+            console.log("You are Selected");
+        }
+        else{
+            console.log("height is not matched");
+        }
+    }
+    else{
+        console. log("Age is not matched")
+    }
 }
