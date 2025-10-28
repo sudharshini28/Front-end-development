@@ -29,7 +29,29 @@ num--;//PostDecrement
 console.log(num3);
 
 //Post Increment and Pre Increment
+// Substiution 
+// increment 
+// operation
 
 let newnum = 10;
-num = newnum++ + ++newnum; // 10 + 12 = 22
+newnum = newnum++ + ++newnum; // 10 + 12 = 22
 console.log(newnum);
+
+let newnum1 = 1;
+newnum1= ++newnum1 + ++newnum1; // 2+ 3 = 5
+console.log(newnum1);
+
+
+// Post Decrement and Pre Decrement
+// substituion
+// decrement 
+// operation
+
+let number = 30;
+number = --number - --number // 29 - 28 = 1
+console.log(number); 
+
+let number1 = 9;
+number1 = number1-- - number1--
+
+console.log(number1,number);
