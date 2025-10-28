@@ -67,3 +67,9 @@ if(age >=18){
         console. log("Age is not matched")
     }
 }
+//Ternary Operator
+//condition ? "statement 1" : "statement 2"
+
+let password = false;
+
+password ? console.log("Welcome!..") : console.log("Wrong password X");
