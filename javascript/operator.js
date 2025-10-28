@@ -55,3 +55,42 @@ let number1 = 9;
 number1 = number1-- - number1--
 
 console.log(number1,number);
+
+//Assingment Operators 
+//Addition
+let add = 20;
+add += 20;
+let additionalval = 10;
+add += additionalval;
+console.log(add);
+
+
+// Subtraction 
+let sub = 25;
+sub -= 10;
+console.log(sub);
+
+//Multiplication
+let mul = 15;
+let multival = 20;
+mul *= multival;
+console.log(mul);
+
+//Division
+let div = 3;
+let divisionval = 2;
+div /= divisionval ;
+console.log(div);
+
+//Modules
+let mod = 2;
+let modval = 3;
+mul %= modval;
+console.log(mod);
+
+//Exponential
+let expo = 5;
+let exponenval = 1;
+expo **= exponenval;
+console.log(expo);
+
