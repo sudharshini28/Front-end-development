@@ -36,3 +36,14 @@ else if(hour >12 && hour <3){
 else{
     console.log("It is not a valid hour");
 }
+//switch cases
+let traffic = "red";
+switch(traffic){
+case "red":  console.log("Stop");
+break;
+case "yellow":  console.log("Get ready");
+break;
+case "Green":  console.log("Go");
+break;
+default : console.log("Pay fine");
+}
