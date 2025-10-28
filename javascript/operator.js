@@ -94,3 +94,16 @@ let exponenval = 1;
 expo **= exponenval;
 console.log(expo);
 
+// Relational Operators or Comparisional Operators
+console.log( 10 < 20); //Less than <
+console.log(20>30); //Grater than >
+console.log(20>=10); //Grater than or equal to >=
+console.log(50<=30); //Less than or equal to <=
+console.log(50==50); // equal to == ( to compare only values)
+console.log(50==="50"); // equal to === ( to compare only values and data types)
+// in not equal to if there is a different value the first preference is for value or else the data is different the first priority will be for data type
+console.log(50 !=50); // not equal to != ( to compare only values )
+console.log(50 !==50); // Strict not equal to != ( to compare only values and data types)
+console.log(50 !=="50"); // Strict not equal to != ( to compare only values and data types)
+
+
