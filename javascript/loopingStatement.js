@@ -18,6 +18,7 @@ for(let i = 2; i<=10;i++){
 //     Statement;
 //     updation;
 // }
+
 let val = 10;
 while(val>=1){
     console.log(val);
@@ -33,3 +34,12 @@ while(num > 0){
     sum += last;
 }
 console.log(sum);
+
+//Do While
+
+let num2 = 21;
+do{
+    console.log(num);
+    num++;
+}
+while(num<=20)
