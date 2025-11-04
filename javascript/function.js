@@ -14,6 +14,29 @@
 
 //Default parameters
 
-let employeeID;
-let newID = employeeID || "UN123";
-console.log(newID);
+// let employeeID;
+// let newID = employeeID || "UN123";
+// console.log(newID);
+
+//Return Type
+
+// function findRectArea(l, b) {
+//     let condition = false;
+//     if (condition) {
+//         return l * b
+//     }
+//     else {
+//         return null;
+//     }
+// }
+// let newValue = findRectArea(20, 4);
+// console.log(findRectArea(100, 5), newValue);
+
+// function cubic(num){
+//     return (num**3,);
+// }
+// let newVal = cubic(4);
+
+// console.log(newVal);
+
+
