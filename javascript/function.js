@@ -39,4 +39,13 @@
 
 // console.log(newVal);
 
+//Non Return Type
+
+// function name1(){
+//     console.log("NOn return type");
+    
+// }
+// let noreturn = name1()
+
+// console.log(noreturn)
 
